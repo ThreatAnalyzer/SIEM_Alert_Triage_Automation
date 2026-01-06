@@ -1,0 +1,29 @@
+[
+  {
+    "id": "ALERT-001",
+    "source_ip": "192.168.1.100",
+    "alert_type": "failed_login",
+    "count": 3,
+    "user": "user1",
+    "severity": "Low",
+    "hour": 14
+  },
+  {
+    "id": "ALERT-002",
+    "source_ip": "45.33.32.156",
+    "alert_type": "data_exfiltration",
+    "count": 150,
+    "user": "admin",
+    "severity": "Critical",
+    "hour": 2
+  },
+  {
+    "id": "ALERT-003",
+    "source_ip": "10.0.0.5",
+    "alert_type": "port_scan",
+    "count": 25,
+    "user": "unknown",
+    "severity": "Medium",
+    "hour": 9
+  }
+]
